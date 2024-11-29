@@ -2,7 +2,7 @@
 
 int main(){
 	int run=0;
-	int choice,check,i,j,location,new_number,add_number,element;
+	int choice,check,i,j,location,new_number,add_number,element,n;
 	int length;
 	int arr[100];
 	
@@ -36,13 +36,27 @@ int main(){
 	scanf("%d", &new_number);
 		printf("\nnhap vi tri muon chen (arr[]): ");
 	scanf("%d", &location);
-	
-	arr[location]=new_number;
+
+        if(location<0|| location>length){
+		printf("vi tri khong hop le");
+	}else{ 
+		
+	arr[length++];
+        n=location;
+		for(i=n;i<length;i++){
+		
+		arr[location]=arr[location+1];
+			location++;
+		}
+
+        arr[n]=new_number;
+		
     }else if (choice==3){
     	printf("\n nhap phan tu muon them: ");
     	scanf("%d", &add_number);
     	arr[length]=add_number;
     	length++;
+        arr[length];
     	
     	
 	}else if(choice==5){
