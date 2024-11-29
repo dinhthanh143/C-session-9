@@ -29,11 +29,12 @@ int main(){
 		printf("vi tri khong hop le");
 		return 1;
 	}else{
-             arr[number++];
+		number++;
+             arr[number];
              n=location;
 		for(i=n;i<number;i++){
 		
-		arr[location]=arr[location+1];
+		arr[location+1]=arr[location];
 			location++;
 		}
 		
