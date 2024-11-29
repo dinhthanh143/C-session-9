@@ -40,12 +40,12 @@ int main(){
         if(location<0|| location>length){
 		printf("vi tri khong hop le");
 	}else{ 
-		
-	arr[length++];
+		length++;
+	arr[length];
         n=location;
 		for(i=n;i<length;i++){
 		
-		arr[location]=arr[location+1];
+		arr[location+1]=arr[location];
 			location++;
 		}
 
