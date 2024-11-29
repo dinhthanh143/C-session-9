@@ -2,7 +2,7 @@
 
 int main(){
 	int arr[100];
-	int number,new_number;
+	int number,new_number,n;
 	int i=0;
 	int location;
 	
@@ -28,13 +28,17 @@ int main(){
 	if(location<0|| location>number){
 		printf("vi tri khong hop le");
 		return 1;
+	}else{
+             arr[number++];
+             n=location;
+		for(i=n;i<number;i++){
+		
+		arr[location]=arr[location+1];
+			location++;
+		}
+		
+	arr[n]=new_number;
 	}
-	
-	
-	
-	
-	
-	arr[location]=new_number;
 	
 	for(i=0;i<number;i++){
 		printf(" arr[%d]=%d\n",i,arr[i]);
