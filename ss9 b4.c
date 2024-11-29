@@ -15,6 +15,7 @@ int main(){
 		if (choice==1){
 			printf("\nmoi nhap so phan tu muon nhap: ");
 	scanf("%d", &length);
+			int arr[100];
 	
 	
 	for(i=0;i<length;i++){
