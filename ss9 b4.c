@@ -36,6 +36,14 @@ int main(){
 	scanf("%d", &new_number);
 		printf("\nnhap vi tri muon chen (arr[]): ");
 	scanf("%d", &location);
+	
+	arr[location]=new_number;
+		
+    }else if (choice==3){
+    	printf("\n nhap gia tri muon them: ");
+	scanf("%d", &new_number);
+		printf("\nnhap vi tri muon chen (arr[]): ");
+	scanf("%d", &location);
 
         if(location<0|| location>length){
 		printf("vi tri khong hop le");
@@ -50,13 +58,6 @@ int main(){
 		}
 
         arr[n]=new_number;
-		
-    }else if (choice==3){
-    	printf("\n nhap phan tu muon them: ");
-    	scanf("%d", &add_number);
-    	arr[length]=add_number;
-    	length++;
-        arr[length];
     	
     	
 	}else if(choice==5){
