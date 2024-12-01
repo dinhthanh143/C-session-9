@@ -2,9 +2,10 @@
 
 int main(){
 	int run=0;
-	int choice,check,i,j,location,new_number,add_number,element,n;
+	int choice,i,j,location,new_number,add_number,element,n;
 	int length;
 	int arr[100];
+ int check=0;
 	
 	
 	while(run==0){
