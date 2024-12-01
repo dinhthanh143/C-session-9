@@ -32,13 +32,13 @@ int main(){
 		number++;
              arr[number];
              n=location;
-		for(i=n;i<number;i++){
+		for(i=number;i>location;i--){
+		arr[i]=arr[i-1];
 		
-		arr[location+1]=arr[location];
-			location++;
 		}
 		
 	arr[n]=new_number;
+		number++;
 	}
 	
 	for(i=0;i<number;i++){
