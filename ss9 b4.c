@@ -51,14 +51,14 @@ int main(){
         if(location<0|| location>length){
 		printf("vi tri khong hop le");
 	}else{ 
-		length++;
-	arr[length];
-        n=location;
-		for(i=n;i<length;i++){
 		
-		arr[location+1]=arr[location];
-			location++;
+	
+        n=location;
+		for(i=length;i>n;i--){
+		arr[i]=arr[i-1];
+		
 		}
+		length++;
 
         arr[n]=new_number;
     	
