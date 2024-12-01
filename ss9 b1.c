@@ -29,7 +29,7 @@ int main(){
 		printf("vi tri khong hop le");
 		return 1;
 	}else{
-		number++;
+		
              arr[number];
              n=location;
 		for(i=number;i>location;i--){
